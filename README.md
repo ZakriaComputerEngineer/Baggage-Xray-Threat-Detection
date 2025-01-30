@@ -1,5 +1,8 @@
 # Baggage-Xray-Threat-Detection
 
+NOTE
+This is just a semester project executed in 3-4 hours so you don't have to worry about it...
+
 CLASSIFICATION
 For classifying between the three classes (safe, gun, knives) I’ve used a CNN model Resnet18 which contains 18 conv layers with 11M trainable parameters suitable for this job. Here is the complete of the model on dummy input (3,256,256). Dataset loading is done on batch size 4 after which this is the images and mask in one batch:
  ![image](https://github.com/ZakriaComputerEngineer/Baggage-Xray-Threat-Detection/assets/150436890/f3db4a70-20c9-48e7-b4ed-04e1d6a72aa5)
